@@ -20,9 +20,9 @@
       "type": "text",
       "required": true
     },
-    "noticias_categorias": {
+    "noticias_categoria": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::noticias-categoria.noticias-categoria"
     },
     "content": {
@@ -30,18 +30,12 @@
       "required": true
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "private": true,
-      "required": true
-    },
-    "status": {
-      "type": "boolean",
-      "default": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

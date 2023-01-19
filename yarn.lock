@@ -1590,6 +1590,13 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
+"@sklinet/strapi-plugin-tinymce@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@sklinet/strapi-plugin-tinymce/-/strapi-plugin-tinymce-1.0.4.tgz#93577eb98cce238b15ddea51d5f8d4524ddde75d"
+  integrity sha512-z14i0zATmTK+9dLB7KOWHQIDvNLM/DWfXEZqddY22t/dg7cXSgSI2sGbr/IMC6c1UOJ/37SO9mJiJRhj5bJPxg==
+  dependencies:
+    "@tinymce/tinymce-react" "4.2.0"
+
 "@strapi/admin@4.5.6":
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/@strapi/admin/-/admin-4.5.6.tgz#6d98d33b43dc9600acedbd3143bd3fdc2c1d1af5"
@@ -2019,6 +2026,14 @@
   integrity sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==
   dependencies:
     defer-to-connect "^2.0.0"
+
+"@tinymce/tinymce-react@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@tinymce/tinymce-react/-/tinymce-react-4.2.0.tgz#af2a098153e6eeadc36cfb8940880d7dce425ac5"
+  integrity sha512-Oyi/hDvARR29oqUwTgYXDnMV9E/c7C8V+iK+gUj9tndVXsfSJRYVOw3MTK9CCC9f7alN/S4CYaPpIaA3f4VZzw==
+  dependencies:
+    prop-types "^15.6.2"
+    tinymce "^6.0.0 || ^5.5.1"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -9677,6 +9692,11 @@ tiny-warning@^1.0.0, tiny-warning@^1.0.2, tiny-warning@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
   integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
+
+"tinymce@^6.0.0 || ^5.5.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-6.3.1.tgz#cc5cf2b9f702d429cf5d1d21ed62245d768bfc4f"
+  integrity sha512-+oCwXuTxAdJXVJ0130OxQz0JDNsqg3deuzgeUo8X5Vb27EzCJgXwO5eWvCxvkxpQo4oiHMVlM4tUIpTUHufHGQ==
 
 title-case@^2.1.0:
   version "2.1.1"

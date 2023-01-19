@@ -4,20 +4,16 @@
   "info": {
     "singularName": "noticias-categoria",
     "pluralName": "noticias-categorias",
-    "displayName": "NoticiasCategoria"
+    "displayName": "NoticiasCategoria",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "categoria": {
       "type": "string",
-      "required": true
-    },
-    "status": {
-      "type": "boolean",
-      "default": true,
       "required": true
     }
   }
