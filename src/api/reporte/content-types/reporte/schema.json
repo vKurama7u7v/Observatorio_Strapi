@@ -40,6 +40,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "date": {
+      "type": "date",
+      "required": true
     }
   }
 }
