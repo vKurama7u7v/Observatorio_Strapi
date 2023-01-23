@@ -42,7 +42,7 @@
       ]
     },
     "date": {
-      "type": "date",
+      "type": "datetime",
       "required": true
     }
   }
